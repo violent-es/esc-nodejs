@@ -1,0 +1,15 @@
+{
+  "name": "com.violentes.esc.parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node --skipIgnore tests/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "com.violentes.esc.source-objects": "file:../source-objects"
+  }
+}

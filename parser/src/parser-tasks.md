@@ -1,0 +1,106 @@
+# AST tasks
+
+- [x] Type expressions
+  - [x] Identifier
+  - [x] Any
+  - [x] Void
+  - [x] Undefined
+  - [x] Null
+  - [x] Function
+  - [x] Array
+  - [x] Tuple
+  - [x] Record
+  - [x] Parentheses
+  - [x] Union
+  - [x] Member
+  - [x] Generic instantiation
+  - [x] Nullable
+  - [x] Non-nullable
+  - [x] Typed type expression
+- [x] Variable binding
+- [x] Simple variable declaration
+- [x] Destructuring patterns
+  - [x] Non-destructuring
+  - [x] Array
+  - [x] Object
+- [x] Expressions
+  - [x] Identifier
+    - Possibly typed
+  - [x] `import.meta`
+  - [x] Embed
+  - [x] Unary
+    - [x] Non-null
+    - [x] Post-incremenet
+    - [x] Post-decrement
+  - [x] Binary
+  - [x] Type binary (`as is instanceof`)
+  - [x] Default
+  - [x] Function
+  - [x] Object initializer
+  - [x] Array initializer
+  - [x] Node initializer
+  - [x] Node list initializer
+  - [x] Member
+    - [x] Possibly `?.x`
+  - [x] Index
+    - [x] Possibly `?.[k]`
+  - [x] Call
+    - [x] Possibly `?.()`
+  - [x] This literal
+  - [x] String literal
+  - [x] Null literal
+  - [x] Boolean literal
+  - [x] Numeric literal
+  - [x] `RegExp` literal
+  - [x] Conditional
+  - [x] Parentheses
+  - [x] List
+  - [x] Generic instantiation
+  - [x] Assignment
+  - [x] New
+  - [x] Super
+- [x] Program
+- [x] Packages
+- [x] Generics
+  - [x] `parseOptGenericTypesDeclaration()`
+  - [x] `parseOptGenericBounds(generics)` returns boolean
+- [x] Function common
+  - [x] `parseFunctionCommon(generics, forFunctionDefinition, isConstructor)` returns `{common, semicolonInserted}`
+  - [x] `parseFunctionBody(stackFunction, forFunctionDefinition, isConstructor)`
+- [x] Statements
+  - [x] Declarations
+    - [x] Namespaces
+    - [x] Namespace alias
+    - [x] Variables
+    - [x] Functions
+      - [x] Constructor (`ConstructorDefinition`)
+      - [x] Proxy (`ProxyDefinition`)
+      - [x] Getter (`GetterDefinition`)
+      - [x] Setter (`SetterDefinition`)
+    - [x] Classes
+    - [x] Interfaces
+    - [x] Enums
+    - [x] Types
+  - [x] Expression statement
+  - [x] Empty statement
+  - [x] Block
+    - [x] `parseBlock(context)` returns `Ast.Block`
+  - [x] Super statement
+  - [x] Import
+  - [x] If
+  - [x] Do
+  - [x] While
+  - [x] Break
+  - [x] Continue
+  - [x] Return
+  - [x] Throw
+  - [x] Try
+  - [x] Labeled statement
+  - [x] For
+  - [x] `for..in`
+  - [x] Switch
+  - [x] `switch type`
+  - [x] Include
+  - [x] `use namespace`
+  - [x] `use resource`
+  - [x] With

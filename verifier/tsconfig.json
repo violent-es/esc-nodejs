@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "out": "dist/verifier.js", 
+    "sourceMap": true, 
+    "target": "es6",
+    "lib": ["es2015"],
+    "types": ["node"],
+    "noImplicitAny": true
+  }
+}

@@ -1,0 +1,27 @@
+export default class Token {
+    static EOF = new Token;
+    static IDENTIFIER = new Token;
+    static STRING_LITERAL = new Token;
+    static NUMERIC_LITERAL = new Token;
+    static REG_EXP_LITERAL = new Token;
+    static KEYWORD = new Token;
+    static OPERATOR = new Token;
+    static COMPOUND_ASSIGNMENT = new Token;
+    static LCURLY = new Token;
+    static RCURLY = new Token;
+    static LPAREN = new Token;
+    static RPAREN = new Token;
+    static LSQUARE = new Token;
+    static RSQUARE = new Token;
+    static DOT = new Token;
+    static QUESTION_DOT = new Token;
+    static ELLIPSIS = new Token;
+    static SEMICOLON = new Token;
+    static COMMA = new Token;
+    static QUESTION_MARK = new Token;
+    static EXCLAMATION_MARK = new Token;
+    static COLON = new Token;
+    static ASSIGN = new Token;
+    static ARROW = new Token;
+    static LT_SLASH = new Token;
+}
